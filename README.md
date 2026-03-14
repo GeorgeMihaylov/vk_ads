@@ -112,5 +112,3 @@ python src/13_train_deepsets_attention_k256.py --stage10-dir artifacts/stage10_K
 Финальная модель для сдачи — **DeepSets-attn(K=256)** (в бленде оптимальный вес CatBoost оказался 0), файл для сабмита: `predictions_final.tsv`.
 
 
-
-## Для проверки предоставляется архив с кодом и итоговым `predictions_final.tsv`.
