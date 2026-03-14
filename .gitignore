@@ -1,0 +1,90 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Local config / secrets
+# =========================
+.env
+.env.*
+secrets.*
+*.key
+
+# =========================
+# Project data
+# =========================
+data/
+artifacts/
+outputs/
+logs/
+tmp/
+temp/
+
+# Large model / tensor files
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.parquet
+*.pkl
+*.joblib
+
+# Generated reports / predictions
+report*.json
+metrics*.json
+split.json
+predictions*.tsv
+per_row_errors*.tsv
+detailed_evaluation*.json
+
+# Keep final submission if needed
+!predictions_final.tsv
+
+# =========================
+# Optional: keep folder structure
+# =========================
+!.gitkeep
